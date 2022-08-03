@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-27T19:40:51 IST" name="Default suite" finished-at="2022-07-27T19:41:26 IST" duration-ms="35692">
+    <groups>
+    </groups>
+    <test started-at="2022-07-27T19:40:51 IST" name="Default test" finished-at="2022-07-27T19:41:26 IST" duration-ms="35692">
+      <class name="maven_package.Conversion_to_maven_project.PBLoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:maven_package.Conversion_to_maven_project.PBLoginTest@1b2abca6]" started-at="2022-07-27T19:40:51 IST" name="openBrowser" finished-at="2022-07-27T19:41:03 IST" duration-ms="12057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:maven_package.Conversion_to_maven_project.PBLoginTest@1b2abca6]" started-at="2022-07-27T19:41:03 IST" name="loginToApp" finished-at="2022-07-27T19:41:15 IST" duration-ms="12476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyUserID()[pri:0, instance:maven_package.Conversion_to_maven_project.PBLoginTest@1b2abca6]" started-at="2022-07-27T19:41:15 IST" name="verifyUserID" finished-at="2022-07-27T19:41:25 IST" duration-ms="10062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserID -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:maven_package.Conversion_to_maven_project.PBLoginTest@1b2abca6]" started-at="2022-07-27T19:41:25 IST" name="logoutFromApp" finished-at="2022-07-27T19:41:25 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserID status=SUCCESS method=PBLoginTest.verifyUserID()[pri:0, instance:maven_package.Conversion_to_maven_project.PBLoginTest@1b2abca6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:maven_package.Conversion_to_maven_project.PBLoginTest@1b2abca6]" started-at="2022-07-27T19:41:25 IST" name="closeBrowser" finished-at="2022-07-27T19:41:26 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- maven_package.Conversion_to_maven_project.PBLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
